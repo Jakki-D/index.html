@@ -43,7 +43,39 @@ header{
 }
 h1 {
     color: white;
+    }
+
+hi {
+    font-weight: bold ;
 }
 h2 {
     color: white;
+}
+h2 {
+  font-weight: 500;
+}
+
+footer p{
+  text-align:center;
+  color: whitesmoke;
+}
+em{
+  font-weight: bold;
+  font-style: italic;
+  font-size:large;
+  color:black ;
+}
+strong{
+  color:aqua;
+}
+p{
+  line-height: 2;
+}
+a section{ 
+  text-align: justify;
+  color:lawngreen 
+}
+
+a section{
+  font-size: 700;
 }
