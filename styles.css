@@ -1,5 +1,6 @@
 body{
     background-color: cornflowerblue;
+    font-size: large;
     }
     .overlock-regular {
         font-family: "Overlock", sans-serif;
@@ -38,32 +39,36 @@ body{
       }
       
 header{
-    background-color:blue;
-    color: white;
-}
-h1 {
-    color: white;
-    }
+  background-color:blue;
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+  border-style: solid white;
+  }
 
-hi {
-    font-weight: bold ;
-}
-h2 {
-    color: white;
-}
-h2 {
+h1{
+   color: white;
+   font-weight: bold ;
+   font: size 40px;
+   border: 4px solid white
+  }
+h2{
+  color: white;
   font-weight: 500;
-}
-
+  text-decoration: underline;
+  font-size: xx-large;
+  }
 footer p{
   text-align:center;
   color: whitesmoke;
+  font-size: x-large;
 }
 em{
   font-weight: bold;
   font-style: italic;
-  font-size:large;
+  font-size:xx-large;
   color:black ;
+  text-decoration: underline;
 }
 strong{
   color:aqua;
@@ -71,11 +76,31 @@ strong{
 p{
   line-height: 2;
 }
-a section{ 
+section a{ 
   text-align: justify;
-  color:lawngreen 
-}
+  color:aqua;
+  font-size:x-large;
+  font-style: bold;
+  text-decoration: none;
 
-a section{
-  font-size: 700;
+}
+p a{
+  color: white;
+  font-size: large;
+}
+section a:hover{
+  text-decoration: underline;
+}
+ol{
+  line-height: 2;
+}
+ul {
+  line-height: 2;
+}
+.video{
+  border: 3px solid white;
+  margin-top: 40%;
+}
+.scroll{
+  margin-top: 20px;
 }
